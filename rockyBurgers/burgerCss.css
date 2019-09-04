@@ -1,0 +1,45 @@
+.topmenu {
+    color: brown;
+    font-size: 25px;
+    font-style: oblique;
+    padding: 15px;
+    margin: auto;
+    text-decoration-line: none;
+
+}
+
+.getSmaller {
+    width: 350px;
+    height: 35%;
+}
+
+.logoImg {
+    padding: 5px;
+
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.navMenu {
+    widows: 100%;
+    margin: auto;
+    /*padding-left: 20px;*/
+}
+
+.burgerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 65%;*/
+    /*height: 65%;*/
+}
+
+.imageDiv {
+    margin: auto;
+    width: auto;
+    padding: 10px;
+}
