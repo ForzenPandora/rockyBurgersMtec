@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .topmenu {
     color: brown;
     font-size: 25px;
@@ -25,42 +28,75 @@
 }
 
 .navMenu {
-    widows: 100%;
+    width: 100%;
     margin: auto;
     /*padding-left: 20px;*/
 }
 
-.burgerImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /*width: 65%;*/
-    /*height: 65%;*/
-}
+/*!*.burgerImg {*!*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    !*width: 65%;*!*/
+/*    !*height: 65%;*!*/
+/*}*/
 
 .imageDiv {
-    margin: auto;
-    width: auto;
-    padding: 10px;
+    position: relative;
+    top: 15%;
+    left: 20%;
 }
 
 .centerMenu {
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 25px;
+    /*background-color: #ffae3d;*/
+
+
+
+}
+.menuMenu{
+    display: flex;
+    justify-items: center;
     align-items: center;
 }
 
+.burgerMenu{
+    width: 100%;
+}
+.chickenMenu{
+    width: 100%;
+}
+.menuBackground{
+    background-image: url("burger-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.burgerBackground{
+    background-image: url("burger-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 1100px;
+}
+.location{
+    margin: 10px 30px;
+    border-bottom: 1px dotted black;
 
+}
+.mapCenter{
 
-/* stuff for a background image */
-/*.menuBackground {*/
-/*    display: flex;*/
-/*    flex-flow: column;*/
-/*    background-image: url("burger-hero.jpg");*/
-/*    background-color: #ffffff;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
+}
+
+.mapImage{
+    display: flex;
+    justify-content: center;
+}
+
