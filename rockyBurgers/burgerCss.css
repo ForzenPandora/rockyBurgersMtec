@@ -100,3 +100,28 @@ body{
     justify-content: center;
 }
 
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jobInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jobStuff{
+    margin: 25px;
+}
+.whiteSpace{
+    margin: 20px 50px;
+}
+.faqDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
